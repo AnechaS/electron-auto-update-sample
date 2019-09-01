@@ -1,0 +1,70 @@
+{
+  "name": "electron-auto-update-example",
+  "version": "1.0.0",
+  "description": "demo electron auto update",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-builder install-app-deps",
+    "build": "build -p never",
+    "release": "build -p always"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo",
+    "auto-update"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anechasun/electron-auto-update-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anechasun/electron-auto-update-example.git/issues"
+  },
+  "homepage": "https://github.com/Anechasun/electron-auto-update-example.git#readme",
+  "author": "Anachitheu.k@gmail.com",
+  "dependencies": {
+    "electron-updater": "^4.0.4"
+  },
+  "devDependencies": {
+    "electron": "^3.0.9",
+    "electron-builder": "^20.36.2"
+  },
+  "build": {
+    "appId": "com.applyhead.electron-auto-update-example",
+    "productName": "My app",
+    "mac": {
+      "category": "your.app.category.type",
+      "target": [
+        "zip",
+        "dmg"
+      ]
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "deb"
+      ]
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Anechasun",
+        "repo": "electron-auto-update-example"
+      }
+    ]
+  }
+}
