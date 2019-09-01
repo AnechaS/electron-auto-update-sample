@@ -1,6 +1,6 @@
 {
-  "name": "electron-auto-update-example",
-  "version": "1.0.0",
+  "name": "electron-auto-update-sample",
+  "version": "1.0.1",
   "description": "demo electron auto update",
   "main": "main.js",
   "scripts": {
@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anechasun/electron-auto-update-example.git"
+    "url": "git+https://github.com/Anechasun/electron-auto-update-sample.git"
   },
   "bugs": {
-    "url": "https://github.com/Anechasun/electron-auto-update-example.git/issues"
+    "url": "https://github.com/Anechasun/electron-auto-update-sample.git/issues"
   },
-  "homepage": "https://github.com/Anechasun/electron-auto-update-example.git#readme",
+  "homepage": "https://github.com/Anechasun/electron-auto-update-sample.git#readme",
   "author": "Anachitheu.k@gmail.com",
   "dependencies": {
     "electron-updater": "^4.0.4"
@@ -34,7 +34,7 @@
     "electron-builder": "^20.36.2"
   },
   "build": {
-    "appId": "com.applyhead.electron-auto-update-example",
+    "appId": "com.applyhead.electron-auto-update-sample",
     "productName": "My app",
     "mac": {
       "category": "your.app.category.type",
@@ -63,7 +63,7 @@
       {
         "provider": "github",
         "owner": "Anechasun",
-        "repo": "electron-auto-update-example"
+        "repo": "electron-auto-update-sample"
       }
     ]
   }
