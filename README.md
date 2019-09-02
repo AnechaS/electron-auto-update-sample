@@ -15,4 +15,4 @@ npm start
 npm run release
 ```
 
-**!!! How to make github release electron** [click this](https://github.com/iffy/electron-updater-example)
+How to make github release electron [click this](https://github.com/iffy/electron-updater-example)
